@@ -9,10 +9,11 @@
 	.priceBox{
 		display: block;
 		position: relative;
-		width: 90%;
+		width: 95%;
 		min-height: 80vh;
 		margin-inline: auto;
 		background: transparent;
+		margin-bottom: 0.5rem;
 	} 
 	.pricingGrid{
 		display: grid;
