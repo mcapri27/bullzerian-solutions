@@ -9,6 +9,9 @@
     .sectionOne, .sectionFive, .sectionSix, .sectionThree{
         background: transparent;
     }
+    .sectionThree{
+        margin-top: 5vh;
+    }
     .sectionHeading{
         font-size: 26px;
         text-shadow: -1px 0px 2px #FF6A0D;
@@ -22,7 +25,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         grid-gap: 2.5em;
-        padding-bottom: 15%;
+        padding-bottom: 5%;
     }
     .asidecontgrid{
         grid-template-columns: 1fr;
@@ -183,6 +186,9 @@
     .sectionOne, .sectionFive, .sectionSix, .sectionThree{
         background: transparent;
     }
+    .sectionThree{
+        margin-top: 5vh;
+    }
     .sectionHeading{
         font-size: 26px;
         text-shadow: -1px 0px 2px #FF6A0D;
@@ -196,7 +202,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         grid-gap: 2.5em;
-        padding-bottom: 15%;
+        padding-bottom: 5%;
     }
     .asidecontgrid{
         grid-template-columns: 1fr;
