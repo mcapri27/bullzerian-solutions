@@ -70,6 +70,7 @@
     }
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
+        text-align: center;
     }
     .bklink{
         font-size: 24px;
@@ -231,6 +232,7 @@
     }
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
+        text-align: center;
     }
     .bklink{
         font-size: 24px;
