@@ -1,4 +1,4 @@
-@media (width <= 371px) { 
+@media (width <= 316px) { 
     .navimg{
         width: 120px;
     }
@@ -137,6 +137,177 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         grid-gap: 0.625em;
+    }
+    #leftButt, #leftButt2, #leftButt3, #rightButt, #rightButt2, #rightButt3{
+        height: 75%;
+    }
+    .footy{
+        min-height: auto;
+    }
+    .footydetails{
+        grid-template-rows: auto; 
+    }
+    #footyHeader{
+        font-size: 14px;
+    }
+    #footyLink{
+        font-size: 12px;
+        margin-bottom: 0.4em;
+    }
+    .footylogoGrid{
+        width: 100%;
+        grid-gap: 5%;
+    }
+    .footyimg{
+        width: 80px;
+    }
+    #rightRes{
+        font-size: 13px;
+    }
+}
+
+@media (317px <= width <= 371px) { 
+    .navimg{
+        width: 120px;
+    }
+    .ptylogo{
+        font-size: 18px;
+        text-shadow: -1px 0px 2px rgb(11, 11, 11);
+    }
+    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
+        background: transparent;
+    }
+    .sectionHeading{
+        font-size: 26px;
+        text-shadow: -1px 0px 2px #FF6A0D;
+    }
+    .seoGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5em;
+    } 
+    .dataGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 2.5em;
+        padding-bottom: 15%;
+    }
+    .asidecontgrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+        grid-gap: 5%;
+    } 
+    .seoaside{
+        border-radius: 30px;
+        height: auto;
+    }
+    .seobox, .styleBox, .dataBox{
+        background-size: cover;
+    }
+    .styleBox, .seobox{
+        background-position-y: -14em;
+    }
+    .seoheadding{
+        font-size: 24px;
+    }
+    .seoarticle, .dataArticle{
+        padding: 0.5rem;
+        border-radius: 30px;
+    }
+    .seoarticlegrid, .dataArticleBox{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto; 
+    }
+    .seovideo{
+        border-radius: 30px;
+    }
+    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
+        color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    .openingheading2{
+        font-size: 23px;
+        padding: 10px;
+    }
+    .productheading{
+        font-size: 19px;
+    }
+    .tierDetails, .priceDetails{
+        width: 100%;
+        margin-inline: auto;
+    }
+    .tierDetailText, .tierDetailText2, .priceDetailText{
+        font-size: 14px;
+        text-align: center;
+    }
+    .bklink{
+        font-size: 24px;
+        padding: 0.2em;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .pricingGrid, .pricingGrid2, .pricingGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+    }
+    .tierOnevideo{
+        width: 125%;
+        height: 200%;
+        object-fit: fill;
+        top: -20%;
+        right: 0;
+    } 
+    .seowaffle{
+        font-size: 16px;
+    }
+    .undustryGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto;
+        width: 80vw;
+        margin-inline: auto;
+        border-radius: 30px;
+    } 
+    .industryvidbox{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .industryaside{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .industrywaffle{
+        font-size: 21px;
+    }
+    .words{
+        height: 35px;
+    }
+    .indasideheading{
+        font-size: 17px;
+    }
+    #asideText{
+        font-size: 18px;
+    }
+    .atcont, .chartcont{
+        left: 62.5%; 
+    }
+    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
+        font-size: 60px; 
+    }
+    .linkat, .chartat{
+        font-size: 13px; 
+    }
+    .tierGrid, .tierGrid2, .tierGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .merchGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 0.625em;
+    }
+    #leftButt, #leftButt2, #leftButt3, #rightButt, #rightButt2, #rightButt3{
+        height: 75%;
     }
     .footy{
         min-height: auto;
