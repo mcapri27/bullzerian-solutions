@@ -36,9 +36,6 @@
     .seobox, .styleBox, .dataBox{
         background-size: 110%;
     }
-    .styleBox, .seobox{
-        background-position-y: -16em;
-    }
     .seoheadding{
         font-size: 22px;
     }
@@ -71,6 +68,9 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
         text-align: center;
+    }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
     }
     .bklink{
         font-size: 24px;
@@ -205,10 +205,7 @@
         height: auto;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: cover;
-    }
-    .styleBox, .seobox{
-        background-position-y: -16em;
+        background-size: 105%;
     }
     .seoheadding{
         font-size: 24px;
@@ -242,6 +239,9 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
         text-align: center;
+    }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
     }
     .bklink{
         font-size: 24px;
@@ -411,6 +411,9 @@
         font-size: 14px;
         text-align: center;
     }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
+    }
     .bklink{
         font-size: 24px;
         padding: 0.2em;
@@ -577,6 +580,9 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
     }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
+    }
     .bklink{
         font-size: 24px;
         padding: 0.2em;
@@ -729,6 +735,9 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
     }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
+    }
     .bklink{
         font-size: 24px;
         padding: 0.2em;
@@ -872,6 +881,9 @@
     }
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 12px;
+    }
+    .tierTwoArticle, .tierThreeArticle{
+        padding-bottom: 0.5rem;
     }
     .bklink{
         font-size: 24px;
