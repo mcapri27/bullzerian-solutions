@@ -10,7 +10,7 @@
         background: transparent;
     }
     .sectionThree{
-        margin-top: 5vh;
+        margin-top: 0;
     }
     .sectionHeading{
         font-size: 26px;
@@ -40,7 +40,7 @@
         background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 110%;
+        background-size: 200%;
     }
     .seoheadding{
         font-size: 22px;
@@ -187,7 +187,7 @@
         background: transparent;
     }
     .sectionThree{
-        margin-top: 5vh;
+        margin-top: 0;
     }
     .sectionHeading{
         font-size: 26px;
@@ -217,7 +217,7 @@
         background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 105%;
+        background-size: 200%;
     }
     .seoheadding{
         font-size: 24px;
@@ -385,10 +385,10 @@
         height: auto;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: cover;
+        background-size: 150%;
     }
     .styleBox, .seobox{
-        background-position-y: -14em;
+        background-position-y: top;
     }
     .seoheadding{
         font-size: 24px;
