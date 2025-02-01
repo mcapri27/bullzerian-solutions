@@ -14,28 +14,6 @@
 		object-fit: fill;
 	}
 	
-	.tierOneArticle{
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		background: white;
-		/*background-image: repeating-linear-gradient(90deg, #73372d, #800020, #893727, #CB6D51);
-		background-size: 300%; 
-		animation: image1 12s ease-in-out both;*/
-		box-shadow: -2px 0px 7.5px 6px #73372d;
-	}
-	
-	.tierTwoArticle{
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		background: white;
-		/*background-image: repeating-linear-gradient(90deg, white, #BEBEBE, rgba(54, 135, 43, 76%));
-		background-size: 300%;
-		animation: image1 12s ease-in-out both;*/
-		box-shadow: -2px 0px 7.5px 6px #BEBEBE;
-	}
-	
 	.tierSubText{
 		font-size: 20px;
 		font-family: "Poppins", sans-serif;
