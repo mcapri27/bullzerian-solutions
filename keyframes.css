@@ -1,0 +1,162 @@
+	@keyframes gradientBounce{
+		0%, 100%{
+			background: #FF6A0D;
+		} 
+		
+		25%{
+			background: #C8E6C9;
+		} 
+		
+		50%{
+			background: white;
+		} 
+		
+		75%{
+			background: rgb(51, 51, 51);
+		} 
+	}
+	
+	@keyframes h1color{
+		0%, 100%{
+			color: #C8E6C9;
+			font-family: "Orbitron", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 300;
+			font-style: normal;
+		} 
+		
+		25%{
+			color: #FF6A0D;
+			font-family: "Inria Sans", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+		} 
+		
+		50%{
+			color: rgb(51, 51, 51);
+			font-size: 30px;
+			font-family: "Silkscreen", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+		} 
+		
+		75%{
+			color: white;
+			font-size: 50px;
+			font-family: "Ma Shan Zheng", cursive;
+			font-weight: 400;
+			font-style: normal;
+		} 
+	}
+	
+	@keyframes image1{
+		0%{
+		background-position: 0 50%;
+		}
+		
+		50%{
+		background-position: 100% 50%;
+		}
+		
+		100%{
+		background-position: 0 50%;
+		}
+	}
+	
+	@keyframes industry{
+		0%, 100%{
+			background-image: url('client-3691435_1920.jpg');
+		}
+		12.5%{
+			background-image: url('photographer-5353515_1920.jpg'); 
+		}
+		25%{
+			background-image: url('woman-5819631_1920.jpg'); 
+		}
+		37.5%{
+			background-image: url('tattoo-1843640_1920.jpg');
+		}
+		50%{
+			background-image: url('girl-6687144_1920.jpg');
+		}
+		62.5%{
+			background-image: url('woman-1846127_1920.jpg');
+		}
+		75%{
+			background-image: url('help-1265227_1920.jpg');
+		}
+		87.5%{
+			background-image: url('arrangement-2264812_1920.jpg');
+		} 
+	}
+	
+	@keyframes spinner{ 
+		0%{
+			transform: translateY(100%);
+			opacity: 0.75;
+		}
+		10%{
+			transform: translateY(-100%);
+			opacity: 0.75;
+		}
+		25%{
+			transform: translateY(-200%);
+			opacity: 1;
+		}
+		35%{
+			transform: translateY(-300%);
+			opacity: 1;
+		}
+		50%{
+			transform: translateY(-400%);
+			opacity: 1;
+		}
+		60%{
+			transform: translateY(-500%);
+			opacity: 1;
+		}
+		75%{
+			transform: translateY(-600%);
+			opacity: 1;
+		}
+		85%{
+			transform: translateY(-700%);
+			opacity: 1;
+		}
+		100%{
+			transform: translateY(-800%);
+			opacity: 0.5;
+		} 
+	}
+	
+	@keyframes fadeIn{
+		0%{
+			opacity: 0;
+		}
+		
+		100%{
+			opacity: 1;
+		}
+	}
+	
+	@keyframes fadeOut{
+		0%{
+			opacity: 1;
+		}
+		100%{
+			opacity: 0;
+		}
+	}
+	
+	@keyframes slide{
+		0%, 100%{
+			transform: translateY(-200px); 
+			border-radius: 0px;
+		} 
+		50%{
+			transform: translateY(+200px); 
+			border-radius: 99px;
+			background: #FF6A0D;
+		}  
+	} 
+	

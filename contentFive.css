@@ -1,0 +1,23 @@
+	.sectionSix{
+		display: block;
+		position: relative;
+		align-items: center;
+		justify-content: center; 
+		background: #C8E6C9;
+		min-height: 100vh;   
+	} 
+	
+	.styleBox{
+		display: block;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		background-image: url('ai-generated-8947358_1920.jpg'); 
+		background-position: center;
+		background-size: 110%;
+		background-repeat: no-repeat; 
+		margin: 30px;
+		border-radius: 30px;
+		overflow: hidden;
+		box-shadow: 0px 5px 15px 12px rgba(0, 0, 0, 0.5);
+	}

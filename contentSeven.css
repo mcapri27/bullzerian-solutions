@@ -1,0 +1,178 @@
+	.priceBox{
+		display: block;
+		position: relative;
+		width: 100vw;
+		min-height: 80vh;
+		padding: 30px;
+		background: transparent;
+	} 
+	.pricingGrid2{
+		display: grid;
+		grid-template-columns: 25% 75%;
+		grid-template-rows: 100%;
+		min-height: 80vh; 
+		box-shadow: 0px 0px 15px 7px #BEBEBE;
+	}
+	
+	.tierOnevideo{
+		position: relative;
+		width: 150%;
+		height: 100%;
+		right: 10%;
+		object-fit: fill;
+	}
+	
+	.tierOneArticle{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		background: white;
+		/*background-image: repeating-linear-gradient(90deg, #73372d, #800020, #893727, #CB6D51);
+		background-size: 300%; 
+		animation: image1 12s ease-in-out both;*/
+		box-shadow: -2px 0px 7.5px 6px #73372d;
+	}
+	
+	.tierTwoArticle{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		background: white;
+		/*background-image: repeating-linear-gradient(90deg, white, #BEBEBE, rgba(54, 135, 43, 76%));
+		background-size: 300%;
+		animation: image1 12s ease-in-out both;*/
+		box-shadow: -2px 0px 7.5px 6px #BEBEBE;
+	}
+	
+	.tierSubText{
+		font-size: 20px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: rgb(51, 51, 51); 
+		text-align: center; 
+	}
+	
+	.tierGrid2{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 100%;
+		min-height: 57.5%; 
+		margin-top: 1%;
+	}
+	
+	.tierBlock{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		align-items: center;
+		width: 100%;
+		height: 100%;  
+	}
+	
+	.tierDetails{
+		display: grid;
+		grid-template-columns: 32.5% 67.5%;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		min-height: 40px;
+		max-height: auto;
+		background: transparent;
+		margin-top: 1.25%;
+		margin-bottom: 2%;
+		text-decoration: none;
+	}
+	
+	.bx-news, .bxs-shapes, .bx-tv, .bxs-purchase-tag, .bxs-color, .bxs-spray-can, .bxs-cloud, .bxs-badge-check{
+		text-align: center;
+		position: inherit;
+		font-size: 50px;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		color: #BEBEBE; 
+	}
+	
+	.tierDetailText{
+		font-size: 14px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		color: rgb(51, 51, 51);
+	}
+	
+	.price{
+		display: block;
+		position: relative;
+		font-size: 30px;
+		font-family: "Aboreto", serif;
+		font-weight: 400;
+		font-style: normal; 
+		text-align: center;
+		padding-top: 0.25em; 
+	}
+	
+	.priceDetails{
+		display: grid;
+		grid-template-columns: 32.5% 67.5%;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		min-height: 40px;
+		max-height: auto;
+		background: transparent;
+		margin-top: 1.25%;
+		margin-bottom: 2%; 
+		text-decoration: none;
+	}
+	
+	.priceDetailText{
+		font-size: 18px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		color: rgb(51, 51, 51);
+	}
+	
+	.bx-badge-check, .bx-cloud{
+		text-align: center;
+		position: inherit;
+		font-size: 50px;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		color: #73372d; 
+	}
+	
+	.bklink{
+		display: block;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		width: 150px;
+		height: 50px; 
+		border-radius: 30px;
+		margin-top: 1.25%;
+		margin-bottom: 2%;
+		text-decoration: none; 
+		text-align: center;
+		padding: 0.3em;
+		transition: all 0.2s;
+		cursor: pointer;
+		
+		font-size: 24px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		background: black;
+		color: white;
+		letter-spacing: 1.2px;
+	}
+	
+	.bklink:hover{
+		transform: scale(1.1);
+		color: black;
+		background: #C8E6C9;
+		box-shadow: 0px 0px 5px 2px #FF6A0D;
+	}
