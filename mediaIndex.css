@@ -127,7 +127,8 @@
         font-size: 60px; 
     }
     .linkat, .chartat{
-        font-size: 13px; 
+        font-size: 10px; 
+        padding-left: 1rem;
         text-align: center;
     }
     .tierGrid, .tierGrid2, .tierGrid3{
@@ -296,7 +297,8 @@
         font-size: 60px; 
     }
     .linkat, .chartat{
-        font-size: 13px; 
+        font-size: 11px;  
+        padding-left: 1rem;
         text-align: center;
     }
     .tierGrid, .tierGrid2, .tierGrid3{
@@ -463,6 +465,7 @@
     }
     .linkat, .chartat{
         font-size: 15px; 
+        padding-left: 0.5rem; 
     }
     .tierGrid, .tierGrid2, .tierGrid3{
         grid-template-columns: 1fr;
