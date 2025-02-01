@@ -551,11 +551,11 @@
         border-bottom-right-radius: 30px;
         height: auto;
     }
-    .seobox, .styleBox, .dataBox{
-        background-size: cover;
+    .styleBox, .dataBox{
+        background-position-y: top;
     }
-    .styleBox, .seobox{
-        background-position-y: -14em;
+    .seobox, .styleBox, .dataBox{
+        background-size: 200%;
     }
     .seoheadding{
         font-size: 24px;
