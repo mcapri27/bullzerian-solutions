@@ -16,7 +16,7 @@
     .seoGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     } 
     .dataGrid{
         grid-template-columns: 1fr;
@@ -187,7 +187,7 @@
     .seoGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     } 
     .dataGrid{
         grid-template-columns: 1fr;
@@ -355,7 +355,7 @@
     .seoGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     } 
     .dataGrid{
         grid-template-columns: 1fr;
@@ -522,7 +522,7 @@
     .seoGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     } 
     .dataGrid{
         grid-template-columns: 1fr;
