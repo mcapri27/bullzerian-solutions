@@ -8,10 +8,10 @@
 		text-decoration: none;  
 	}
 	
-	body{
+	html, body{
 		margin: 0;
 		padding: 0; 
-		width: 100svw;
+		width: 100%;
 		height: auto;
 		overflow-x: hidden;  
 		background: #C8E6C9; 
@@ -137,8 +137,8 @@
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		min-height: 80vh; 
 	}
 	
