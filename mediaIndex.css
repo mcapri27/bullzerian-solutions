@@ -33,6 +33,9 @@
         border-radius: 30px;
         height: auto;
     }
+    .styleBox, .dataBox{
+        background-position-y: top;
+    }
     .seobox, .styleBox, .dataBox{
         background-size: 110%;
     }
@@ -203,6 +206,9 @@
     .seoaside{
         border-radius: 30px;
         height: auto;
+    }
+    .styleBox, .dataBox{
+        background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
         background-size: 105%;
