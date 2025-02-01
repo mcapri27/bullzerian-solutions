@@ -157,7 +157,7 @@
         grid-template-rows: auto; 
     }
     #footyHeader{
-        font-size: 14px;
+        font-size: 10px;
     }
     #footyLink{
         font-size: 8px;
@@ -334,7 +334,7 @@
         grid-template-rows: auto; 
     }
     #footyHeader{
-        font-size: 14px;
+        font-size: 12px;
     }
     #footyLink{
         font-size: 9px;
