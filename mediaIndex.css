@@ -165,7 +165,7 @@
     }
     .footylogoGrid{
         width: 100%;
-        grid-gap: 5%;
+        grid-gap: 15%;
     }
     .footyimg{
         width: 80px;
@@ -342,7 +342,7 @@
     }
     .footylogoGrid{
         width: 100%;
-        grid-gap: 5%;
+        grid-gap: 10%;
     }
     .footyimg{
         width: 80px;
