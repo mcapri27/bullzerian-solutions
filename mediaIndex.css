@@ -34,13 +34,13 @@
         height: auto;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: cover;
+        background-size: 110%;
     }
     .styleBox, .seobox{
         background-position-y: -16em;
     }
     .seoheadding{
-        font-size: 24px;
+        font-size: 22px;
     }
     .seoarticle, .dataArticle{
         padding: 0.5rem;
