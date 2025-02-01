@@ -298,8 +298,6 @@
         grid-template-rows: auto auto;
         grid-gap: 1.25em;
     }
-
-
     .footy{
         min-height: auto;
     }
@@ -464,7 +462,6 @@
         grid-template-rows: auto auto;
         grid-gap: 1.25em;
     }
-
     .footy{
         min-height: auto;
     }
