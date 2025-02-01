@@ -124,7 +124,8 @@
         left: 62.5%; 
     }
     .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 60px; 
+        font-size: 50px; 
+        padding-right: 1em;
     }
     .linkat, .chartat{
         font-size: 10px; 
@@ -294,7 +295,8 @@
         left: 62.5%; 
     }
     .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 60px; 
+        font-size: 50px; 
+        padding-right: 1em;
     }
     .linkat, .chartat{
         font-size: 11px;  
@@ -461,7 +463,8 @@
         left: 62.5%; 
     }
     .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 75px; 
+        font-size: 70px; 
+        padding-right: 1em;
     }
     .linkat, .chartat{
         font-size: 15px; 
