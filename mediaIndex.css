@@ -135,7 +135,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 0.625em;
     }
     .footy{
         min-height: auto;
@@ -296,7 +296,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 1.25em;
     }
 
 
@@ -462,7 +462,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 1.25em;
     }
 
     .footy{
@@ -615,7 +615,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     } 
     .footy{
         min-height: auto;
@@ -755,7 +755,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 5em;
+        grid-gap: 2.5em;
     }
     .footy{
         min-height: auto;
