@@ -67,7 +67,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 100%;
 		height: 7.5vh;
-		width: 100vw;
+		width: 100%;
 		background: transparent; 
 	}
 	
