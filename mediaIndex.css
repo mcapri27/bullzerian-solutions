@@ -1,12 +1,3 @@
-@media (orientation: landscape) {
-    .indasideheading{
-        font-size: 16px;
-    }
-    .industrywaffle{
-        font-size: 13px;
-    }
-}
-
 @media (width <= 316px) { 
     .navimg{
         width: 120px;
@@ -48,7 +39,7 @@
         background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 350%;
+        background-size: 700%;
     }
     .seoheadding{
         font-size: 22px;
