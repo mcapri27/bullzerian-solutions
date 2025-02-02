@@ -8,14 +8,13 @@
 		text-decoration: none; 
 	}
 	
-	body{
+	html, body{
 		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		width: 100vw;
+		padding: 0; 
+		width: 100%;
 		height: auto;
 		overflow-x: hidden;  
-		background: #C8E6C9;
+		background: #C8E6C9; 
 	} 
 	
 	h1, h2{
