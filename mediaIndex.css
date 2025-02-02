@@ -1,3 +1,12 @@
+@media (orientation: landscape) {
+    .indasideheading{
+        font-size: 16px;
+    }
+    .industrywaffle{
+        font-size: 13px;
+    }
+}
+
 @media (width <= 316px) { 
     .navimg{
         width: 120px;
