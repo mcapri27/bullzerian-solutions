@@ -433,7 +433,7 @@
 		
 		const copyWaffle3 = document.createElement('p');
 		copyWaffle3.classList.add('legalWaffle');
-		copyWaffle3.innerHTML = "In addition to our own cookies, we may also use third-party cookies from service providers, such as Google Analytics 4. These parties may collect user data independently and are governed by their own privacy policies. For information on Google’s use of data, please visit: [Google's Privacy Policy](https://policies.google.com/privacy).";
+		copyWaffle3.innerHTML = "In addition to our own cookies, we may also use third-party cookies from service providers, such as Google Analytics 4. These parties may collect user data independently and are governed by their own privacy policies. For information on Google’s use of data, please visit: <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.";
 		
 		const amendHead3 = document.createElement('h2');
 		amendHead3.classList.add('docHeading');
