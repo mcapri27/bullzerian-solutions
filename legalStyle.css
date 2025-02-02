@@ -1,0 +1,256 @@
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	a{
+		text-decoration: none; 
+	}
+	
+	html, body{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		height: auto;
+		overflow-x: hidden;  
+		background: #C8E6C9; 
+	} 
+	
+	h1, h2{
+		font-size: 44px;
+		font-family: "Silkscreen", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: rgb(51, 51, 51); 
+	}
+	
+	section, footer{
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		width: 100%;
+		min-height: 80vh;  
+	}
+	
+	.navbar{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		align-items: center;
+		width: 100%;
+		height: 20vh; 
+		background: transparent; 
+		top: 0;   
+		margin-bottom: 1em;
+	}
+	
+	.navimg{
+		display: flex;
+		position: relative;
+		width: 180px;
+		height: 100%; 
+		margin-left: 0.5em;
+		padding: 0;
+	}
+	
+	.ptylogo{
+		font-size: 34px;
+		font-family: "Inria Sans", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		color: rgb(51, 51, 51);
+	}
+	
+	.legalTabs{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 100%;
+		height: 7.5vh;
+		width: 100vw;
+		background: transparent; 
+	}
+	
+	.tabs{
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		margin-bottom: 2em;
+	}
+	
+	.tabText1, .tabText2, .tabText3{
+		font-size: 20px;
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		color: rgb(51, 51, 51);
+		padding: 0px 15px; 
+		border-radius: 30px;
+		cursor: pointer;
+		border-bottom: 2px solid transparent;
+		transition: all 0.3s;
+	}
+
+	.legalSec{
+		display: flex;
+		flex-direction: column;  
+		width: 100%;
+		margin-inline: auto;
+		align-items: center;
+		top: 0.5em; 
+	}
+
+	.legalArt{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		margin-inline: auto;
+		width: 90%;
+		min-height: 70vh; 
+		padding-bottom: 10px;   
+		animation: fadeIn 1s ease;
+	}
+
+	.legalHeading{
+		text-align: center;
+		padding-top: 0.3em;
+	}
+
+	.docHeading{
+		font-size: 26px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		text-align: center;
+		color:rgb(51, 51, 51);
+		padding-top: 0.3em;
+	}
+
+	.legalWaffle{
+		font-size: 23px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		text-align: center;
+		color:rgb(51, 51, 51);
+		padding-top: 0.3em;
+	} 
+
+	@media (width <= 207px) { 
+		.tabText1, .tabText2, .tabText3{
+			font-size: 8px;
+		}
+		.legalHeading{
+			font-size: 14px;
+		} 
+		.docHeading{
+			font-size: 12px;
+		}
+		.legalWaffle{
+			font-size: 10px;
+		}
+		.ptylogo{
+			font-size: 12px;	
+		}
+		.navimg{
+			width: 100px;
+		}
+	}
+
+	@media (208px <= width <= 309px) {
+		.tabText1, .tabText2, .tabText3{
+			font-size: 8px;
+		}
+		.legalHeading{
+			font-size: 16px;
+		} 
+		.docHeading{
+			font-size: 14px;
+		}
+		.legalWaffle{
+			font-size: 12px;
+		}
+		.ptylogo{
+			font-size: 14px;	
+		}
+		.navimg{
+			width: 120px;
+		}
+	}
+
+	@media (310px <= width <= 452px) {
+		.tabText1, .tabText2, .tabText3{
+			font-size: 10px;
+		}
+		.legalHeading{
+			font-size: 18px;
+		} 
+		.docHeading{
+			font-size: 16px;
+		}
+		.legalWaffle{
+			font-size: 14px;
+		}
+		.ptylogo{
+			font-size: 16px;	
+		}
+		.navimg{
+			width: 140px;
+		}
+	}
+
+	@media (453px <= width <= 509px) {
+		.tabText1, .tabText2, .tabText3{
+			font-size: 12px;
+		}
+		.legalHeading{
+			font-size: 19px;
+		}
+		.docHeading{
+			font-size: 17px;
+		}
+		.legalWaffle{
+			font-size: 15px;
+		}
+		.ptylogo{
+			font-size: 20px;	
+		}
+		.navimg{
+			width: 160px;
+		}
+	}
+
+	@media (510px <= width <= 687px) {
+		.tabText1, .tabText2, .tabText3{
+			font-size: 14px;
+		}
+		.legalHeading{
+			font-size: 20px;
+		}
+		.docHeading{
+			font-size: 18px;
+		}
+		.legalWaffle{
+			font-size: 16px;
+		}
+	}
+
+	.loader{
+		display: flex; 
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		justify-content: center;
+		align-items: center; 
+		background: rgb(11, 11, 11); 
+		z-index: 100;
+	}
+	
+	.loaderObj{
+		display: block;
+		width: 100px;
+		height: 100px;  
+		background: #C8E6C9;
+		animation: slide 6s infinite ease-in-out; 
+		margin: 0px 20px;
+	}
