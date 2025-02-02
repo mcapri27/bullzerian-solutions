@@ -1,0 +1,80 @@
+@media (width <= 375px) {  
+    .objectiveWaffleText{
+        font-size: 21px;
+    }
+    .sectionHeading{
+        font-size: 34px;
+    }
+    .navimg{
+        width: 140px;
+    }
+    .ptylogo{
+        font-size: 20px;
+    }
+    .objectBlock{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vh auto;
+    }
+    .objectiveImg{ 
+        grid-row: 1;
+        margin-bottom: 1em;
+        background-position: center;
+    }
+}
+
+@media (376px <= width <= 428px) {  
+    .objectiveWaffleText{
+        font-size: 21px;
+    }
+    .sectionHeading{
+        font-size: 34px;
+    }
+    .navimg{
+        width: 160px;
+    }
+    .ptylogo{
+        font-size: 20px;
+    }
+    .objectBlock{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vh auto;
+    }
+    .objectiveImg{ 
+        grid-row: 1;
+        margin-bottom: 1em;
+        background-position: center;
+    }
+}
+
+@media (429px <= width <= 527px) {  
+    .ptylogo{
+        font-size: 24px;
+    }
+    .objectBlock{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vh auto;
+    }
+    .objectiveImg{ 
+        grid-row: 1;
+        margin-bottom: 1em;
+    }
+}
+
+@media (528px <= width <= 992px) {  
+    .objectBlock{
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vh auto;
+    }
+    .objectiveImg{ 
+        grid-row: 1;
+        margin-bottom: 1em;
+    }
+}
+
+@media (993px <= width <= 1115px) {
+    .objectiveImg{
+        height: 75%;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+} 
