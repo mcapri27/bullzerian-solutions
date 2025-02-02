@@ -385,7 +385,7 @@
     .seobox, .styleBox, .dataBox{
         background-size: 150%;
     }
-    .styleBox, .seobox{
+    .styleBox, .seobox, .dataBox{
         background-position-y: top;
     }
     .seoheadding{
