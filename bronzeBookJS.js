@@ -27,11 +27,9 @@ document.getElementById('pp').addEventListener('click', () => {
 
 document.getElementById('other').addEventListener('click', () => {
 	document.getElementById('otherLtdType').setAttribute('required', '');
-});
+}); 
 
-const formEl = document.querySelector('.infoBox');
-
-formEl.addEventListener('submit', event => {
+formEl.addEventListener('click', event => {
 	// event.preventDefault();
 
 	// const formData = new FormData(formEl);
