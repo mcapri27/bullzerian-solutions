@@ -32,18 +32,18 @@ document.getElementById('other').addEventListener('click', () => {
 const formEl = document.querySelector('.infoBox');
 
 formEl.addEventListener('submit', event => {
-	event.preventDefault();
+	// event.preventDefault();
 
-	const formData = new FormData(formEl);
-	const data = Object.fromEntries(formData);
+	// const formData = new FormData(formEl);
+	// const data = Object.fromEntries(formData);
 
-	fetch('https://reqres.in/api/users', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify(data)
-	}).catch(error => alert(error));
+	// fetch('https://reqres.in/api/users', {
+	// 	method: 'POST',
+	// 	headers: {
+	// 		'Content-Type': 'application/json'
+	// 	},
+	// 	body: JSON.stringify(data)
+	// }).catch(error => alert(error));
 
 	setTimeout(() => {
 		document.querySelector(".dom").style.animationName = "fadeOut";
@@ -52,15 +52,15 @@ formEl.addEventListener('submit', event => {
 	}, 100);   
 
 	setTimeout(() => { 
-		document.getElementById('preloader').style.display = "flex";
-		document.querySelector(".dom").style.display = "none";
+		//document.getElementById('preloader').style.display = "flex";
+		document.querySelector(".scaffold").style.display = "flex";
 	}, 850); 
 
-	setTimeout(() => {
-		document.querySelector(".scaffold").style.display = "flex";
-	}, 4000);
+	// setTimeout(() => {
+	// 	document.querySelector(".scaffold").style.display = "flex";
+	// }, 4000);
 
-	setTimeout(() => {
-		document.getElementById('preloader').style.display = "none";
-	}, 7100); 
+	// setTimeout(() => {
+	// 	document.getElementById('preloader').style.display = "none";
+	// }, 7100); 
 });
