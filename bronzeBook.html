@@ -292,19 +292,19 @@
 					<h1 style="text-align:center;">BUSINESS DETAILS</h1>
 					<div class="infoGrid">
 						<div class="infoCell">
-							<input type="text" class="inBox" placeholder="Business Name" id="businessName" autocomplete="off" required></input>
+							<input type="text" class="inBox" placeholder="Business Name" id="businessName" name="businessName" autocomplete="off" required></input>
 							
-							<input type="value" class="inBox" placeholder="Enterprise Number(optional)" id="enterpriseNumber" autocomplete="off"></input>
+							<input type="value" class="inBox" placeholder="Enterprise Number(optional)" id="enterpriseNumber" name="enterpriseNumber" autocomplete="off"></input>
 							
-							<input type="text" class="inBox" placeholder="Business Full Main Address(e.g 12 Daisy Street, Suburb, City etc)" id="businessAddress" autocomplete="off" required></input>
+							<input type="text" class="inBox" placeholder="Business Full Main Address(e.g 12 Daisy Street, Suburb, City etc)" id="businessAddress" name="businessAddress" autocomplete="off" required></input>
 						</div>
 						
 						<div class="infoCell">
-							<input type="text" class="inBox" placeholder="Email" id="email" autocomplete="off" required></input>
+							<input type="text" class="inBox" placeholder="Email" id="email" name="email" autocomplete="off" required></input>
 							
-							<input type="value" class="inBox" placeholder="Phone Number" id="phone" autocomplete="off" required></input>
+							<input type="value" class="inBox" placeholder="Phone Number(012 345 5678)" id="phone" name="phone" autocomplete="off" required></input>
 							
-							<input type="text" class="inBox" style="box-shadow: 0px 0px 15px 7px #25D366" placeholder="WhatsApp Number" id="whatsapp" autocomplete="off" required></input>
+							<input type="text" class="inBox" style="box-shadow: 0px 0px 15px 7px #25D366" placeholder="WhatsApp Number(012 345 5678)" id="whatsapp" name="whatsapp" autocomplete="off" required></input>
 						</div>
 					</div>
 					
@@ -312,73 +312,73 @@
 					
 					<div class="infoGrid">
 						<div class="infoCell">
-							<textarea class="shortSumm" id="brandID" placeholder="Short Summary of the business and the nature of its products and/or services" autocomplete="off" rows="5" cols="30" required></textarea>
+							<textarea class="shortSumm" id="brandID" name="brandID" placeholder="Short Summary of the business and the nature of its products and/or services" autocomplete="off" rows="5" cols="30" required></textarea>
 						
-							<input type="text" class="socialIn" style="box-shadow: 0px 0px 15px 7px #316FF6;width:90%;" placeholder="Facebook Link(optional)" id="facebook" autocomplete="off"></input>
+							<input type="text" class="socialIn" style="box-shadow: 0px 0px 15px 7px #316FF6;width:90%;" placeholder="Facebook Link(optional)" id="facebook" name="facebook" autocomplete="off"></input>
 							
-							<input type="value" class="socialIn" style="box-shadow: 0px 0px 15px 7px #962fbf;width:90%;" placeholder="Instagram Link(optional)" id="instagram" autocomplete="off"></input>
+							<input type="value" class="socialIn" style="box-shadow: 0px 0px 15px 7px #962fbf;width:90%;" placeholder="Instagram Link(optional)" id="instagram" name="instagram" autocomplete="off"></input>
 							
-							<input type="text" class="socialIn" style="box-shadow: 0px 0px 15px 7px #FF0000;width:90%;" placeholder="YouTube Link(optional)" id="youtube" autocomplete="off"></input>
+							<input type="text" class="socialIn" style="box-shadow: 0px 0px 15px 7px #FF0000;width:90%;" placeholder="YouTube Link(optional)" id="youtube" name="youtube" autocomplete="off"></input>
 						</div>
 	
 						<div class="infoCell">
 							<div class="industryDropdown">
 								<input type="text" placeholder="Please state your industry &#8659;" class="industryStyle" id="industry" readonly>
 								<div class="industryOption">
-									<input type="radio" id="ecommerce" autocomplete="off" hidden>
-									<label for="ecommerce" name="ecommercePress" onclick="show1()" class="industryName">E-Commerce</label>
+									<input type="radio" id="ecommerce" name="industryName" value="ecommercePress" autocomplete="off" hidden>
+									<label for="ecommerce" onclick="show1()" class="industryName">E-Commerce</label>
 
-									<input type="radio" id="healthcare" autocomplete="off" hidden>
-									<label for="healthcare" name="healthcarePress" onclick="show2()" class="industryName">Healthcare</label>
+									<input type="radio" id="healthcare" name="industryName" value="healthcarePress" autocomplete="off" hidden>
+									<label for="healthcare" onclick="show2()" class="industryName">Healthcare</label>
 
-									<input type="radio" id="realEstate" autocomplete="off" hidden>
-									<label for="realEstate" name="realestatePress" onclick="show3()" class="industryName">Real-Estate</label>
+									<input type="radio" id="realEstate" name="industryName" value="realestatePress" autocomplete="off" hidden>
+									<label for="realEstate" onclick="show3()" class="industryName">Real-Estate</label>
 
-									<input type="radio" id="entertainment" autocomplete="off" hidden>
-									<label for="entertainment" name="entertainmentPress" onclick="show4()" class="industryName">Entertainment</label>
+									<input type="radio" id="entertainment" name="industryName" value="entertainmentPress" autocomplete="off" hidden>
+									<label for="entertainment" onclick="show4()" class="industryName">Entertainment</label>
 
-									<input type="radio" id="travel" autocomplete="off" hidden>
-									<label for="travel" name="travelPress" onclick="show5()" class="industryName">Travel & Hospitality</label>
+									<input type="radio" id="travel" name="industryName" value="travelPress" autocomplete="off" hidden>
+									<label for="travel" onclick="show5()" class="industryName">Travel & Hospitality</label>
 
-									<input type="radio" id="food" autocomplete="off" hidden>
-									<label for="food" name="foodPress" onclick="show6()" class="industryName">Food & Beverage</label>
+									<input type="radio" id="food" name="industryName" value="foodPress" autocomplete="off" hidden>
+									<label for="food" onclick="show6()" class="industryName">Food & Beverage</label>
 
-									<input type="radio" id="npo" autocomplete="off" hidden>
-									<label for="npo" name="npoPress" onclick="show7()" class="industryName">Non-Profit Organizations</label>
+									<input type="radio" id="npo" name="industryName" value="npoPress" autocomplete="off" hidden>
+									<label for="npo" onclick="show7()" class="industryName">Non-Profit Organizations</label>
 
-									<input type="radio" id="tech" autocomplete="off" hidden>
-									<label for="tech" name="techPress" onclick="show8()" class="industryName">Technology</label>
+									<input type="radio" id="tech" name="industryName" value="techPress" autocomplete="off" hidden>
+									<label for="tech" onclick="show8()" class="industryName">Technology</label>
 
-									<input type="radio" id="manufacturing" autocomplete="off" hidden>
-									<label for="manufacturing" name="manufacturingPress" onclick="show9()" class="industryName">Manufacturing</label>
+									<input type="radio" id="manufacturing" name="industryName" value="manufacturingPress" autocomplete="off" hidden>
+									<label for="manufacturing" onclick="show9()" class="industryName">Manufacturing</label>
 
-									<input type="radio" id="construction" autocomplete="off" hidden>
-									<label for="construction" name="constructionPress" onclick="show10()" class="industryName">Construction</label>
+									<input type="radio" id="construction" name="industryName" value="constructionPress" autocomplete="off" hidden>
+									<label for="construction" onclick="show10()" class="industryName">Construction</label>
 
-									<input type="radio" id="automotive" autocomplete="off" hidden>
-									<label for="automotive" name="autoPress" onclick="show11()" class="industryName">Automotive</label>
+									<input type="radio" id="automotive" name="industryName" value="autoPress" autocomplete="off" hidden>
+									<label for="automotive" onclick="show11()" class="industryName">Automotive</label>
 
-									<input type="radio" id="retail" autocomplete="off" hidden>
-									<label for="retail" name="retailPress" onclick="show12()" class="industryName">Retail</label>
+									<input type="radio" id="retail" name="industryName" value="retailPress" autocomplete="off" hidden>
+									<label for="retail" onclick="show12()" class="industryName">Retail</label>
 
-									<input type="radio" id="beauty" autocomplete="off" hidden>
-									<label for="beauty" name="beautyPress" onclick="show13()" class="industryName">Beauty & Wellness</label>
+									<input type="radio" id="beauty" name="industryName" value="beautyPress" autocomplete="off" hidden>
+									<label for="beauty" onclick="show13()" class="industryName">Beauty & Wellness</label>
 
-									<input type="radio" id="sports" autocomplete="off" hidden>
-									<label for="sports" name="sportsPress" onclick="show14()" class="industryName">Sports & Fitness</label>
+									<input type="radio" id="sports" name="industryName" value="sportsPress" autocomplete="off" hidden>
+									<label for="sports" onclick="show14()" class="industryName">Sports & Fitness</label>
 
-									<input type="radio" id="media" autocomplete="off" hidden>
-									<label for="media" name="mediaPress" onclick="show15()" class="industryName">Media & Publishing</label>
+									<input type="radio" id="media" name="industryName" value="mediaPress" autocomplete="off" hidden>
+									<label for="media" onclick="show15()" class="industryName">Media & Publishing</label>
 
-									<input type="radio" id="arts" autocomplete="off" hidden>
-									<label for="arts" name="artsPress" onclick="show16()" class="industryName">Arts & Culture</label>
+									<input type="radio" id="arts" name="industryName" value="artsPress" autocomplete="off" hidden>
+									<label for="arts" onclick="show16()" class="industryName">Arts & Culture</label>
 
-									<input type="radio" id="other" autocomplete="off" hidden>
-									<label for="other" name="otherPress" onclick="show17()" class="industryName">Other</label> 
+									<input type="radio" id="other" name="industryName" value="otherPress" autocomplete="off" hidden>
+									<label for="other" onclick="show17()" class="industryName">Other</label> 
 								</div>
 							</div>
 	
-							<textarea class="shortSumm" style="margin-bottom: 0.8em;overflow: hidden;" id="otherLtdType" placeholder="If you chose other: Please tell us what your particular industry is" autocomplete="off" row="3" cols="30"></textarea>
+							<textarea class="shortSumm" style="margin-bottom: 0.8em;overflow: hidden;" id="otherLtdType" name="other" placeholder="If you chose other: Please tell us what your particular industry is" autocomplete="off" row="3" cols="30"></textarea>
 							
 							<div class="noticeSA">
 								<h1 style="text-align:center;text-shadow: -1px 0px #C8E6C9;">PLEASE NOTE</h1>
@@ -392,39 +392,39 @@
 					
 					<h2 style="text-align:center;">Colors</h2>
 					<div class="infoCell">
-						<input type="text" class="socialIn" placeholder="Primary(e.g Red/#8E3C3F)" id="primaryCo" autocomplete="off" required></input>
+						<input type="text" class="socialIn" placeholder="Primary(e.g Red/#8E3C3F)" id="primaryCo" name="primaryColour" autocomplete="off" required></input>
 							
-						<input type="value" class="socialIn" placeholder="Secondary(e.g Green/#136207)" id="secondaryCo" autocomplete="off" required></input>
+						<input type="value" class="socialIn" placeholder="Secondary(e.g Green/#136207)" id="secondaryCo" name="secondaryColour" autocomplete="off" required></input>
 							
-						<input type="text" class="socialIn" placeholder="Tertiary(e.g Blue/#4169E1);" id="tertiaryCo" autocomplete="off" required></input>
+						<input type="text" class="socialIn" placeholder="Tertiary(e.g Blue/#4169E1);" id="tertiaryCo" name="tertiaryColour" autocomplete="off" required></input>
 					</div>
 					
 					<h2 style="text-align:center;">OPTIONS</h2>
 					<div class="infoGrid">
 						<div class="infoCell"> 
-							<input type="radio" id="merchandise" value="yesMerch" autocomplete="off"></input>
+							<input type="radio" id="merchandise" name="merch" value="yesMerch" autocomplete="off"></input>
 							<label for="merchandise" class="options">Merchandise</label>
 							
-							<input type="radio" id="productPage" value="yesProducts" autocomplete="off"></input>
+							<input type="radio" id="productPage" name="products" value="yesProducts" autocomplete="off"></input>
 							<label for="productPage" class="options">Product Page</label>
 						
-							<input type="radio" id="servicePage" value="yesServices" autocomplete="off"></input>
+							<input type="radio" id="servicePage" name="services" value="yesServices" autocomplete="off"></input>
 							<label for="servicePage" class="options">Service Page</label>
 						</div>
 						
 						<div class="infoCell"> 
-							<input type="radio" id="cartOpt" value="yesCart" autocomplete="off"></input>
+							<input type="radio" id="cartOpt" name="cart" value="yesCart" autocomplete="off"></input>
 							<label for="cartOpt" class="options">Cart</label>
 							
-							<input type="radio" id="clientTest" value="yesClientTestimonials" autocomplete="off"></input>
+							<input type="radio" id="clientTest" name="clientTestimonials" value="yesClientTestimonials" autocomplete="off"></input>
 							<label for="clientTest" class="options">Client Testimonials</label>
 						
-							<input type="radio" id="affiliateAds" value="yesAffiliates" autocomplete="off"></input>
+							<input type="radio" id="affiliateAds" name="affiliates" value="yesAffiliates" autocomplete="off"></input>
 							<label for="affiliateAds" class="options">Login Functionality</label>
 						</div>
 					</div>
 
-					<input type="radio" name="yesToTerms" id="Ts&Cs" autocomplete="off" required>
+					<input type="radio" name="termCons" value="yesToTerms" id="Ts&Cs" autocomplete="off" required>
 					<div class="accept">
 						<label for="Ts&Cs" class="termsCon"></label>
 						<label for="Ts&Cs" class="tierDetailText">
@@ -432,7 +432,7 @@
 							<a href="Legal.html" style="text-decoration: underline;">Terms and Conditions</a> 
 						</label>
 					</div>
-					<input type="radio" name="yesToTerms" id="pp" autocomplete="off" required>
+					<input type="radio" name="privyTerms" value="yesToPrivacy" id="pp" autocomplete="off" required>
 					<div class="accept">
 						<label for="pp" class="termsCon2"></label>
 						<label for="pp" class="tierDetailText">
