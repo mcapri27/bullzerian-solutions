@@ -258,7 +258,7 @@
 		justify-content: center;
 	}
 	
-	.bx-cart-download, .bx-candles, .bxs-inbox, .bx-send{
+	.bx-cart-download, .bx-link-alt, .bxs-inbox, .bx-send{
 		text-align: center;
 		position: inherit;
 		font-size: 80px;
