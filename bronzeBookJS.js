@@ -29,7 +29,7 @@ document.getElementById('other').addEventListener('click', () => {
 	document.getElementById('otherLtdType').setAttribute('required', '');
 }); 
 
-formEl.addEventListener('click', event => {
+document.getElementById('submitBronze').addEventListener('click', event => {
 	// event.preventDefault();
 
 	// const formData = new FormData(formEl);
