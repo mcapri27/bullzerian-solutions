@@ -39,7 +39,7 @@
         background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 700%;
+        background-size: 600%;
     }
     .seoheadding{
         font-size: 22px;
@@ -215,7 +215,7 @@
         background-position-y: top;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 220%;
+        background-size: 420%;
     }
     .seoheadding{
         font-size: 24px;
@@ -383,7 +383,7 @@
         height: auto;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 150%;
+        background-size: 250%;
     }
     .styleBox, .seobox, .dataBox{
         background-position-y: top;
