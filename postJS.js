@@ -58,11 +58,11 @@
   const dataList = [data];
 
   try {
-    const response = await fetch('https://api.jsonbin.io/v3/b/YOUR_BIN_ID', {
+    const response = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        'X-Master-Key': 'YOUR_MASTER_KEY'
+        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
       },
       body: JSON.stringify(dataList) // Send the list of objects
     });
