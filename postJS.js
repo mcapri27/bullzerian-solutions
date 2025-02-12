@@ -53,11 +53,11 @@
       };
 
       try {
-        const response = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
+        const response = await fetch('', {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
+            'X-Master-Key': ''
           },
           body: JSON.stringify(data)
         });
