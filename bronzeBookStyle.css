@@ -562,14 +562,17 @@
 
 	.industryDropdown.active .industryOption{
 		display: flex;
+		margin-top: 0;
 	}
 
 	.industryDropdown.active {
 		height: 40%;
+		margin-top: 0;
 	}
 
 	.industryDropdown.active .industryStyle{
 		height: 40%;
+		margin-top: 0;
 	}
 
 	.industryStyle{
