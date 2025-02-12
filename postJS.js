@@ -86,4 +86,4 @@ document.getElementById('pp').addEventListener('click', () => {
 
 document.getElementById('other').addEventListener('click', () => {
 	document.getElementById('otherLtdType').setAttribute('required', '');
-}); 
+});
