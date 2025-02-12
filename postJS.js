@@ -93,8 +93,4 @@ document.getElementById('pp').addEventListener('click', () => {
 	document.querySelector(".termsCon2").style.background = "#C8E6C9";
 	document.querySelector(".termsCon2").style.border = "none";
 	document.querySelector(".termsCon2").style.boxShadow = "0px 0px 10px 8px #fff";
-});
-
-document.getElementById('other').addEventListener('click', () => {
-	document.getElementById('otherLtdType').setAttribute('required', '');
-});
+}); 
