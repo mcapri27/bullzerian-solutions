@@ -48,7 +48,7 @@
   	clientTestimonials: clientTestimonials,
   	login: login,
   	termCons: termCons,
-  	privyTerms: privyTerms
+  	privyTerms: privyTerms,
         timestamp: new Date().toISOString()
       };
 
