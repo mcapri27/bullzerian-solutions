@@ -11,7 +11,7 @@
       const facebook = document.getElementById('facebook').value;
 	   const instagram = document.getElementById('instagram').value;
       const youtube = document.getElementById('youtube').value;
-	const industryName = document.getElementsByName('industryName').value;
+	const industryName = document.getElementById('industryName').value;
       const other = document.getElementById('otherLtdType').value;
 	const primaryColour = document.getElementById('primaryCo').value;
       const secondaryColour = document.getElementById('secondaryCo').value;
