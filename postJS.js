@@ -11,19 +11,19 @@
       const facebook = document.getElementById('facebook').value;
 	   const instagram = document.getElementById('instagram').value;
       const youtube = document.getElementById('youtube').value;
-	const industryName = document.getElementById('industryName').value;
-      const other = document.getElementById('other').value;
-	const primaryColour = document.getElementById('primaryColour').value;
-      const secondaryColour = document.getElementById('secondaryColour').value;
-	const tertiaryColour = document.getElementById('tertiaryColour').value;
-      const merch = document.getElementById('merch').value;
-	   const products = document.getElementById('products').value;
-	const services = document.getElementById('services').value;
-      const cart = document.getElementById('cart').value;
-	const clientTestimonials = document.getElementById('clientTestimonials').value;
-      const login = document.getElementById('login').value;
-	const termCons = document.getElementById('termCons').value;
-      const privyTerms = document.getElementById('privyTerms').value;
+	const industryName = document.getElementsByName('industryName').value;
+      const other = document.getElementById('otherLtdType').value;
+	const primaryColour = document.getElementById('primaryCo').value;
+      const secondaryColour = document.getElementById('secondaryCo').value;
+	const tertiaryColour = document.getElementById('tertiaryCo').value;
+      const merch = document.getElementById('merchandise').value;
+	   const products = document.getElementById('productPage').value;
+	const services = document.getElementById('servicePage').value;
+      const cart = document.getElementById('cartOpt').value;
+	const clientTestimonials = document.getElementById('clientTest').value;
+      const login = document.getElementById('loginFun').value;
+	const termCons = document.getElementById('Ts&Cs').value;
+      const privyTerms = document.getElementById('pp').value;
 
       const data = { 
 	businessName: businessName,
