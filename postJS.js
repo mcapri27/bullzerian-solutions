@@ -76,7 +76,7 @@
     console.error('Error:', error);
   }
 
-if(document.getElementById('industryName').value == "other") {
+if(document.getElementById('industryName').value == "otherPress") {
 	document.getElementById('otherLtdType').setAttribute('required', '');
 } else {
 	console.log("Standard Industry");
