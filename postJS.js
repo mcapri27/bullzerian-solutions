@@ -75,6 +75,12 @@
   } catch (error) {
     console.error('Error:', error);
   }
+
+if(document.getElementById('industryName').value == "other") {
+	document.getElementById('otherLtdType').setAttribute('required', '');
+} else {
+	console.log("Standard Industry");
+}
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
