@@ -1,4 +1,4 @@
-   document.getElementById('newClientForm').addEventListener('submit', async (e) => {
+document.getElementById('newClientForm').addEventListener('submit', async (e) => {
   e.preventDefault();
 
   // Get form values
@@ -76,13 +76,11 @@
     console.error('Error:', error);
   }
 
-  // Conditionally set the required attribute for 'otherLtdType'
-  if (industryName === "otherPress") {
-    document.getElementById('otherLtdType').setAttribute('required', '');
-  } else {
-    document.getElementById('otherLtdType').removeAttribute('required');
-    console.log("Standard Industry");
-  }
+if(document.getElementById('industryName').value == "otherPress") {
+	document.getElementById('otherLtdType').setAttribute('required', '');
+} else {
+	console.log("Standard Industry");
+}
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
