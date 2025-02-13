@@ -12,7 +12,7 @@
   const facebook = document.getElementById('facebook').value;
   const instagram = document.getElementById('instagram').value;
   const youtube = document.getElementById('youtube').value;
-  const industryName = document.getElementById('industryName').value;
+  const industryName = document.querySelector('input[name="industryName"]:checked').value;
   const other = document.getElementById('otherLtdType').value;
   const primaryColour = document.getElementById('primaryCo').value;
   const secondaryColour = document.getElementById('secondaryCo').value;
@@ -76,11 +76,13 @@
     console.error('Error:', error);
   }
 
-if(document.getElementById('industryName').value == "otherPress") {
-	document.getElementById('otherLtdType').setAttribute('required', '');
-} else {
-	console.log("Standard Industry");
-}
+  // Conditionally set the required attribute for 'otherLtdType'
+  if (industryName === "otherPress") {
+    document.getElementById('otherLtdType').setAttribute('required', '');
+  } else {
+    document.getElementById('otherLtdType').removeAttribute('required');
+    console.log("Standard Industry");
+  }
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
