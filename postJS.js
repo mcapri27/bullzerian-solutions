@@ -56,10 +56,10 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
 
   try {
     // Fetch the existing data from the bin
-    const getResponse = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
+    const getResponse = await fetch('your_bin_url', {
       method: 'GET',
       headers: {
-        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
+        'X-Master-Key': 'x_master_key'
       }
     });
 
