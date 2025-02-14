@@ -54,20 +54,32 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     timestamp: new Date().toISOString()
   };
 
-  // Wrap the data object in a list
-  const dataList = [data];
-
   try {
-    const response = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
+    // Fetch the existing data from the bin
+    const getResponse = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
+      method: 'GET',
+      headers: {
+        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
+      }
+    });
+
+    const existingData = await getResponse.json();
+    const existingSubmissions = existingData.record || [];
+
+    // Append the new submission to the existing list
+    const updatedSubmissions = [...existingSubmissions, data];
+
+    // Update the bin with the new list of submissions
+    const putResponse = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
         'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
       },
-      body: JSON.stringify(dataList) // Send the list of objects
+      body: JSON.stringify(updatedSubmissions)
     });
 
-    if (response.ok) {
+    if (putResponse.ok) {
       alert('Data submitted successfully!');
     } else {
       alert('Failed to submit data.');
@@ -76,11 +88,11 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     console.error('Error:', error);
   }
 
-if(document.getElementById('industryName').value == "otherPress") {
-	document.getElementById('otherLtdType').setAttribute('required', '');
-} else {
-	console.log("Standard Industry");
-}
+  if (document.getElementById('industryName').value == "otherPress") {
+    document.getElementById('otherLtdType').setAttribute('required', '');
+  } else {
+    console.log("Standard Industry");
+  }
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
