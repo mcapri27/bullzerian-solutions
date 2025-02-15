@@ -107,4 +107,3 @@ document.getElementById('pp').addEventListener('click', () => {
 	document.querySelector(".termsCon2").style.boxShadow = "0px 0px 10px 8px #fff";
 }); 
 
-//Me and My 2 niggas be like EddEdNEddy
