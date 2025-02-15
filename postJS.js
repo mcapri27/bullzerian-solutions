@@ -70,11 +70,11 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     const updatedSubmissions = [...existingSubmissions, data];
 
     // Update the bin with the new list of submissions
-    const putResponse = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
+    const putResponse = await fetch('bin_url', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
+        'X-Master-Key': 'x_master_key'
       },
       body: JSON.stringify(updatedSubmissions)
     });
