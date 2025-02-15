@@ -88,11 +88,12 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     console.error('Error:', error);
   }
 
-  if (document.getElementById('industryName').value == "Other") {
-    document.getElementById('otherLtdType').setAttribute('required', '');
-  } else {
-    console.log("Standard Industry");
-  }
+  if (document.getElementById('otherPress').checked) {
+  document.getElementById('otherLtdType').setAttribute('required', '');
+} else {
+  console.log("Standard Industry");
+  document.getElementById('otherLtdType').removeAttribute('required');
+}
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
