@@ -56,12 +56,16 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
 
   try {
     // Fetch the existing data from the bin
-    const getResponse = await fetch('your_bin_url', {
+    const getResponse = await fetch('https://api.jsonbin.io/v3/b/67abf885acd3cb34a8de6b9c', {
       method: 'GET',
       headers: {
-        'X-Master-Key': 'x_master_key'
+        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu' // Replace with your actual master key
       }
     });
+
+    if (!getResponse.ok) {
+      throw new Error('Failed to fetch existing data');
+    }
 
     const existingData = await getResponse.json();
     const existingSubmissions = existingData.record || [];
@@ -74,7 +78,7 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu'
+        'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu' // Replace with your actual master key
       },
       body: JSON.stringify(updatedSubmissions)
     });
@@ -86,14 +90,16 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     }
   } catch (error) {
     console.error('Error:', error);
+    alert('An error occurred while submitting the data.');
   }
 
+  // Handle the "Other" industry checkbox
   if (document.getElementById('otherPress').checked) {
-  document.getElementById('otherLtdType').setAttribute('required', '');
-} else {
-  console.log("Standard Industry");
-  document.getElementById('otherLtdType').removeAttribute('required');
-}
+    document.getElementById('otherLtdType').setAttribute('required', '');
+  } else {
+    console.log("Standard Industry");
+    document.getElementById('otherLtdType').removeAttribute('required');
+  }
 });
 
    document.getElementById('Ts&Cs').addEventListener('click', () => {
