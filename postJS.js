@@ -17,12 +17,12 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
   const primaryColour = document.getElementById('primaryCo').value;
   const secondaryColour = document.getElementById('secondaryCo').value;
   const tertiaryColour = document.getElementById('tertiaryCo').value;
-  const merch = document.getElementById('merchandise').value;
-  const products = document.getElementById('productPage').value;
-  const services = document.getElementById('servicePage').value;
-  const cart = document.getElementById('cartOpt').value;
-  const clientTestimonials = document.getElementById('clientTest').value;
-  const login = document.getElementById('loginFun').value;
+  const merch = document.querySelector('input[name="merch"]:checked')?.value || null;
+  const products = document.querySelector('input[name="products"]:checked')?.value || null;
+  const services = document.querySelector('input[name="services"]:checked')?.value || null;
+  const cart = document.querySelector('input[name="cart"]:checked')?.value || null;
+  const clientTestimonials = document.querySelector('input[name="clientTestimonials"]:checked')?.value || null;
+  const login = document.querySelector('input[name="login"]:checked')?.value || null;
   const termCons = document.getElementById('Ts&Cs').value;
   const privyTerms = document.getElementById('pp').value;
 
