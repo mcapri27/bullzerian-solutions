@@ -56,7 +56,7 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
 
   try {
     // Fetch the existing data from the bin
-    const getResponse = await fetch('https://api.jsonbin.io/v3/b/67b2037fe41b4d34e4903ba2', {
+    const getResponse = await fetch('https://api.jsonbin.io/v3/b/67b25aa2ad19ca34f8064b71', {
       method: 'GET',
       headers: {
         'X-Master-Key': '$2a$10$6ULTbNCMPGrULbeC4JF8vur1Xx9nKAbLtrd2fMyZWkKL4aQ6ooCyu' // Replace with your actual master key
@@ -74,7 +74,7 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     const updatedSubmissions = [...existingSubmissions, data];
 
     // Update the bin with the new list of submissions
-    const putResponse = await fetch('https://api.jsonbin.io/v3/b/67b2037fe41b4d34e4903ba2', {
+    const putResponse = await fetch('https://api.jsonbin.io/v3/b/67b25aa2ad19ca34f8064b71', {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
