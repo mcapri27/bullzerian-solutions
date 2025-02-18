@@ -37,30 +37,36 @@
 	<link rel="stylesheet" href="customScrollbar.css" as="style">
 
 </head>
-<body>
-	<!--<section class="loader" id="preloader">
-		<div class="loaderObj"></div>
-		<div class="loaderObj"></div>
-		<div class="loaderObj"></div>
-		<div class="loaderObj"></div>
-	</section>-->
+<body> 
 
-	<section class="scaffold">
-		<i class='bx bxs-hard-hat'></i>
+	<section class="scaffold2">
+		<i class='bx bxs-x-circle'></i>
 		<span class="ptylogo" style="text-align: center;padding: 5px 10px;">
-			The Bullzerian Solutions (PTY) LTD<br>
-			Application Form<br>
-			is still under construction...
+			APPLICATION<br/>
+			NOT SENT
 		</span> 
 		<span class="tierDetailText" style="font-style: italic;">
-			We sincerley apologize for the inconvenience
+			We apologize for the inconvenience
 		</span>
 		<br/>
-		<a href="index.html">
-			<button class="sbt-butt" id="okayButt">
-				okay
-			</button>
-		</a>		
+		<button class="sbt-butt" style="background:red;" id="okayButt2">
+			okay
+		</button>		
+	</section>
+
+	<section class="scaffold">
+		<i class='bx bx-paper-plane'></i> 
+		<span class="ptylogo" style="text-align: center;padding: 5px 10px;">
+			APPLICATION<br/>
+			SENT
+		</span> 
+		<span class="tierDetailText" style="font-style: italic;">
+			We'll keep in touch
+		</span>
+		<br/>
+		<button class="sbt-butt" style="background:#FF6A0D;" id="okayButt">
+			okay
+		</button>		
 	</section>
 
 	<main role="main">
@@ -297,15 +303,32 @@
 							
 							<input type="text" class="inBox" placeholder="Enterprise Number(optional)" id="enterpriseNumber" name="enterpriseNumber" autocomplete="off">
 							
-							<input type="text" class="inBox" placeholder="Business Full Main Address(e.g 12 Daisy Street, Suburb, City etc)" id="businessAddress" name="businessAddress" autocomplete="off" required>
+							<input type="text" class="inBox" placeholder="Full Main Address(e.g 12 Daisy Street, Suburb, City)" id="businessAddress" name="businessAddress" autocomplete="off" required>
 						</div>
 						
 						<div class="infoCell">
 							<input type="text" class="inBox" placeholder="Email" id="email" name="email" autocomplete="off" required>
+
+							<div class="waGrid">
+								<div class="waPlaceholder" style="box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.5);">
+									<span class="waPlaceholderText">
+										+27
+									</span>
+								</div>
+								<div></div>
+								<input type="text" style="width: 100%;" class="inBox" placeholder="Phone Number" id="phone" name="phone" maxlength="9" autocomplete="off" required>
+							</div>
 							
-							<input type="text" class="inBox" placeholder="Phone Number(012 345 5678)" id="phone" name="phone" autocomplete="off" required>
+							<div class="waGrid">
+								<div class="waPlaceholder">
+									<span class="waPlaceholderText">
+										+27
+									</span>
+								</div>
+								<div></div>
+								<input type="text" class="waBox" placeholder="WhatsApp Number" id="whatsapp" name="whatsapp" maxlength="9" autocomplete="off" required>
+							</div>
 							
-							<input type="text" class="inBox" style="box-shadow: 0px 0px 15px 7px #25D366" placeholder="WhatsApp Number(012 345 5678)" id="whatsapp" name="whatsapp" autocomplete="off" required>
 						</div>
 					</div>
 					
@@ -446,20 +469,12 @@
 						submit!
 					</button>
 				</form> 
-			</section>
+			</section> 
 		</section>
 	</main>
 
 <script src="postJS.js"></script>
-<script src="dropdown.js"></script>
+<script src="dropdown.js"></script> 
 </body>
 </html>
-
-<!--<a class="tierDetails2" href="#" aria-label="">
-								<div style="width:100%;min-height:50px;align-items:center;"><i class='bx bx-credit-card-alt'></i></div>
-								<div>
-								<span class="tierDetailText">
-									Link Payment Processor
-								</span>
-								</div>
-							</a>-->
+ 
