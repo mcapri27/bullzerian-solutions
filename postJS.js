@@ -25,6 +25,12 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     const login = document.querySelector('input[name="login"]:checked')?.value || null;
     const termCons = document.getElementById('Ts&Cs').value;
     const privyTerms = document.getElementById('pp').value;
+
+    // Function to get the value of a radio button group, allowing unselection
+    const getRadioValue = (name) => {
+        const radio = document.querySelector(`input[name="${name}"]:checked`);
+        return radio ? radio.value : null;
+    };
   
     // Create data object
     const data = {
@@ -43,12 +49,13 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
       primaryColour: primaryColour,
       secondaryColour: secondaryColour,
       tertiaryColour: tertiaryColour,
-      options: {merch: merch,
-      products: products,
-      services: services,
-      cart: cart,
-      clientTestimonials: clientTestimonials,
-      login: login,},
+      options: {
+          merch: getRadioValue(merch),
+      products: getRadioValue(products),
+      services: getRadioValue(services),
+      cart: getRadioValue(cart),
+      clientTestimonials: getRadioValue(clientTestimonials),
+      login: getRadioValue(login),},
       termCons: termCons,
       privyTerms: privyTerms,
       timestamp: new Date().toISOString()
@@ -118,6 +125,18 @@ document.getElementById('newClientForm').addEventListener('submit', async (e) =>
     }
   }
 );
+
+// Add event listeners to radio buttons to allow unselecting
+document.querySelectorAll('input[type="radio"]').forEach(radio => {
+    radio.addEventListener('click', function () {
+        if (this.checked && this.dataset.checked === 'true') {
+            this.checked = false;
+            this.dataset.checked = 'false';
+        } else {
+            this.dataset.checked = 'true';
+        }
+    });
+});
 
 document.getElementById('otherPress').addEventListener('click', () => {
     document.getElementById('otherLtdType').required = true;
