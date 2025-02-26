@@ -37,7 +37,7 @@
     }
     .webDetails{
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: 30vh auto;
     } 
     .appContent{
         min-height: auto;
@@ -117,7 +117,7 @@
     }
     .webDetails{
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: 40vh auto;
     } 
     .appContent{
         min-height: auto;
@@ -176,7 +176,7 @@
     }
     .webDetails{
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: 40vh auto;
     } 
     .appContent{
         min-height: auto;
@@ -221,7 +221,7 @@
 @media (805px <= width <= 907px) {
     .webDetails{
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: 40vh auto;
     } 
     .appContent{
         min-height: auto;
