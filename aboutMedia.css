@@ -1,80 +1,598 @@
-@media (width <= 375px) {  
+@media (width <= 317px) {
+    .navimg{
+        width: 100px;
+    }
+    .ptylogo{
+        font-size: 18px;
+    }
+    .aboutArt{ 
+        position: fixed;
+        top: 60%;
+        left: 0; 
+        width: 100%; 
+        transform: none;
+        box-shadow: none;
+        border-radius: 0; 
+        padding-bottom: 10px;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading, .objHeading{
+        font-size: 18px;
+    }
+    .objWaffle{
+        font-size: 9.5px;
+    }
+    .dyk{
+        top: 27.5%;
+        left: 50%;
+        width: 80%;
+    }
+    .dyk2{
+        top: 15%;
+        left: 50%;
+        width: 80%;
+    }
+    .dykSymbol{
+        width: 3rem;
+        height: 3rem;
+    }
+    .bx-question-mark{
+        font-size: 3rem;
+    }
+    .dykWaffle{
+        font-size: 10px;
+    }
     .objectiveWaffleText{
-        font-size: 21px;
+        font-size: 12px; 
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        width: 80vw;
+        transform: translate(+2.5%, +50%);
     }
-    .sectionHeading{
-        font-size: 34px;
+    .vizWaffle{
+        font-size: 13.5px;
     }
+}
+
+@media (318px <= width <= 361px) {
+    .navimg{
+        width: 120px;
+    }
+    .ptylogo{
+        font-size: 20px;
+    }
+    .aboutArt{ 
+        position: fixed;
+        top: 60%;
+        left: 0; 
+        width: 100%; 
+        transform: none;
+        box-shadow: none;
+        border-radius: 0; 
+        padding-bottom: 10px;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading, .objHeading{
+        font-size: 18px;
+    }
+    .objWaffle{
+        font-size: 11.5px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        top: 15%;
+        left: 50%;
+        width: 80%;
+    }
+    .dykSymbol{
+        width: 3rem;
+        height: 3rem;
+    }
+    .bx-question-mark{
+        font-size: 3rem;
+    }
+    .dykWaffle{
+        font-size: 10px;
+    }
+    .objectiveWaffleText{
+        font-size: 12px; 
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        width: 80vw;
+        transform: translate(+2.5%, +50%);
+    }
+    .vizWaffle{
+        font-size: 13.5px;
+    }
+} 
+
+@media (362px <= width <= 413px) {
     .navimg{
         width: 140px;
     }
     .ptylogo{
-        font-size: 20px;
+        font-size: 22px;
     }
-    .objectBlock{
-        grid-template-columns: 1fr;
-        grid-template-rows: 60vh auto;
+    .aboutArt{ 
+        width: 90%;
+        left: 50%; 
     }
-    .objectiveImg{ 
-        grid-row: 1;
-        margin-bottom: 1em;
-        background-position: center;
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
     }
-}
-
-@media (376px <= width <= 428px) {  
+    .dykHeading, .objHeading{
+        font-size: 18px;
+    }
+    .objWaffle{
+        font-size: 12.5px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 3rem;
+        height: 3rem;
+    }
+    .bx-question-mark{
+        font-size: 3rem;
+    }
+    .dykWaffle{
+        font-size: 10px;
+    }
     .objectiveWaffleText{
-        font-size: 21px;
+        font-size: 12px; 
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
     }
-    .sectionHeading{
-        font-size: 34px;
+    .vizWaffle{
+        font-size: 13.5px;
     }
+} 
+
+@media (414px <= width <= 462px) {
     .navimg{
         width: 160px;
     }
-    .ptylogo{
-        font-size: 20px;
-    }
-    .objectBlock{
-        grid-template-columns: 1fr;
-        grid-template-rows: 60vh auto;
-    }
-    .objectiveImg{ 
-        grid-row: 1;
-        margin-bottom: 1em;
-        background-position: center;
-    }
-}
-
-@media (429px <= width <= 527px) {  
+    
     .ptylogo{
         font-size: 24px;
     }
-    .objectBlock{
-        grid-template-columns: 1fr;
-        grid-template-rows: 60vh auto;
+    .aboutArt{ 
+        width: 90%;
+        left: 50%; 
     }
-    .objectiveImg{ 
-        grid-row: 1;
-        margin-bottom: 1em;
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
     }
-}
-
-@media (528px <= width <= 992px) {  
-    .objectBlock{
-        grid-template-columns: 1fr;
-        grid-template-rows: 60vh auto;
+    .dykHeading, .objHeading{
+        font-size: 18px;
     }
-    .objectiveImg{ 
-        grid-row: 1;
-        margin-bottom: 1em;
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
     }
-}
-
-@media (993px <= width <= 1115px) {
-    .objectiveImg{
-        height: 75%;
-        top: 50%;
-        transform: translate(0, -50%);
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 3rem;
+        height: 3rem;
+    }
+    .bx-question-mark{
+        font-size: 3rem;
+    }
+    .dykWaffle{
+        font-size: 10px;
+    }
+    .objectiveWaffleText{
+        font-size: 12px; 
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 14px;
     }
 } 
+
+@media (463px <= width <= 516px) {
+    .navimg{
+        width: 160px;
+    }
+    
+    .ptylogo{
+        font-size: 28px;
+    }
+    .aboutArt{ 
+        width: 90%;
+        left: 50%; 
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading{
+        font-size: 20px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 12px;
+    }
+    .objectiveWaffleText{
+        font-size: 12px; 
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 14.5px;
+    }
+} 
+
+@media (517px <= width <= 561px) {
+    .aboutArt{ 
+        width: 80%;
+        left: 50%; 
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading{
+        font-size: 20px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 13px;
+    }
+    .objectiveWaffleText{
+        font-size: 15px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 28px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 15px;
+    }
+} 
+
+@media (562px <= width <= 597px) {
+    .aboutArt{ 
+        width: 70%;
+        left: 40%;
+        width: 75%;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading{
+        font-size: 20px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 13px;
+    }
+    .objectiveWaffleText{
+        font-size: 15px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 15px;
+    }
+}
+
+@media (598px <= width <= 604px) {
+    .aboutArt{ 
+        left: 40%;
+        width: 75%;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading{
+        font-size: 22px;
+    }
+    .dyk{
+        width: 50%;
+        top: 32.5%;
+        left: 70%;
+    }
+    .dyk2{
+        width: 40%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 13px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 16px;
+    }
+}
+
+@media (605px <= width <= 642px) {
+    .aboutArt{ 
+        left: 40%;
+        width: 75%;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykHeading{
+        font-size: 22px;
+    }
+    .dyk{
+        top: 32.5%;
+        left: 75%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 13px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 16.5px;
+    }
+}
+
+@media (643px <= width <= 719px) {
+    .aboutArt{ 
+        left: 40%;
+        width: 75%;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dyk{
+        top: 32.5%;
+        left: 75%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 14px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizBox{
+        transform: translate(+2.5%, +40%);
+    }
+    .vizWaffle{
+        font-size: 17px;
+    }
+}
+
+@media (720px <= width <= 799px) {
+    .aboutArt{
+        top: 67.5%;
+        left: 40%;
+        width: 75%;
+    }
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dyk{
+        top: 32.5%;
+        left: 75%;
+    }
+    .dykSymbol{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 14px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizWaffle{
+        font-size: 18px;
+    }
+}
+
+@media (800px <= width <= 897px) {
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykSymbol{
+        width: 5rem;
+        height: 5rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 16px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizWaffle{
+        font-size: 18px;
+    }
+}
+
+@media (897px <= width <= 978px) {
+    .objToast1, .objToast2 {
+        width: 80%;
+        left: 50%;
+    }
+    .dykSymbol{
+        width: 5rem;
+        height: 5rem;
+    }
+    .bx-question-mark{
+        font-size: 3.75rem;
+    }
+    .dykWaffle{
+        font-size: 16px;
+    }
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 30px;
+    } 
+    .vizWaffle{
+        font-size: 18px;
+    }
+}
+
+@media (979px <= width <= 1071px) {
+    .objectiveWaffleText{
+        font-size: 17px;
+    } 
+    .vizHeading, .sectionHeading{
+        font-size: 35px;
+    } 
+    .vizWaffle{
+        font-size: 19px;
+    }
+}
+
+
+@media (1072px <= width <= 1115px) {  
+    .objectiveWaffleText{
+        font-size: 18px;
+    } 
+    .vizWaffle{
+        font-size: 20px;
+    }
+}
+
+@media (1115px <= width <= 1356px) { 
+    
+}
