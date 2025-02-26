@@ -85,7 +85,7 @@ section, footer{
 .webDetails{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 100%;  
+	grid-template-rows: 60vh auto;  
 	min-height: 80vh; 
 	justify-content: center;
 	align-items: center;  
@@ -389,7 +389,7 @@ section, footer{
 	87.5%{
 		opacity: 0;
 	}
-}
+} 
 
 .circleVid{
 	display: flex;
@@ -404,6 +404,24 @@ section, footer{
 	left: 50%;
 	transform: translate(-25%, -25%);
 	box-shadow: 0px 0px 15px 7px rgb(51, 51, 51);
+}
+
+.businessVid{
+	display: flex;
+	position: relative;
+	width: 95%;
+	height: 90%;
+	margin-inline: auto;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;  
+	box-shadow: 0px 0px 15px 7px rgb(51, 51, 51);
+}
+
+.bizVid{ 
+	display: block;
+	position: relative;
+    height: 400%; 
 }
 
 #ca1, #ca2{
