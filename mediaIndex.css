@@ -1,4 +1,4 @@
-@media (width <= 316px) { 
+@media (width <= 371px) { 
     .navimg{
         width: 120px;
     }
@@ -6,11 +6,11 @@
         font-size: 18px;
         text-shadow: -1px 0px 2px rgb(11, 11, 11);
     }
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
-        background: transparent;
+    .sectionOne{
+        background-position: center;
     }
-    .sectionThree{
-        margin-top: 0;
+    .sectionFive, .sectionSix, .sectionThree{
+        background: transparent;
     }
     .sectionHeading{
         font-size: 26px;
@@ -19,353 +19,7 @@
     .seoGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-    } 
-    .dataGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-        padding-bottom: 5%;
-    }
-    .asidecontgrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto; 
-    } 
-    .seoaside{
-        border-radius: 30px;
-        height: auto;
-    }
-    .styleBox, .dataBox{
-        background-position-y: top;
-    }
-    .seobox, .styleBox, .dataBox{
-        background-size: 600%;
-    }
-    .seoheadding{
-        font-size: 22px;
-    }
-    .seoarticle, .dataArticle{
-        padding: 0.5rem;
-        border-radius: 30px;
-    }
-    .seoarticlegrid, .dataArticleBox{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto; 
-    }
-    .seovideo{
-        border-radius: 30px;
-    }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    .openingheading2{
-        font-size: 23px;
-        padding: 10px;
-    }
-    .productheading{
-        font-size: 19px;
-    }
-    .tierDetails, .priceDetails{
-        width: 100%;
-        margin-inline: auto;
-    }
-    .tierDetailText, .tierDetailText2, .priceDetailText{
-        font-size: 14px;
-        text-align: center;
-    }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
-    }
-    .bklink{
-        font-size: 24px;
-        padding: 0.2em;
-    }
-    .price{
-        font-size: 24px;
-    }
-    .pricingGrid, .pricingGrid2, .pricingGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
-    }
-    .tierOnevideo{
-        width: 125%;
-        height: 200%;
-        object-fit: fill;
-        top: -20%;
-        right: 0;
-    } 
-    .seowaffle{
-        font-size: 16px;
-    }
-    .undustryGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto;
-        width: 80vw;
-        margin-inline: auto;
-        border-radius: 30px;
-    } 
-    .industryvidbox{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-    }
-    .industryaside{
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-    .industrywaffle{
-        font-size: 21px;
-    }
-    .words{
-        height: 35px;
-    }
-    .indasideheading{
-        font-size: 17px;
-    }
-    #asideText{
-        font-size: 18px;
-    }
-    .atcont, .chartcont{
-        left: 62.5%; 
-    }
-    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 50px; 
-        padding-right: 1em;
-    }
-    .linkat, .chartat{
-        font-size: 10px; 
-        padding-left: 1rem;
-        text-align: center;
-    }
-    .tierGrid, .tierGrid2, .tierGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-    }
-    .merchGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 0.625em;
-    }
-    #leftButt, #leftButt2, #leftButt3, #rightButt, #rightButt2, #rightButt3{
-        height: 75%;
-    }
-    .footy{
-        min-height: auto;
-    }
-    .footydetails{
-        grid-template-rows: auto; 
-    }
-    #footyHeader{
-        font-size: 10px;
-    }
-    #footyLink{
-        font-size: 8px;
-        margin-bottom: 0.4em;
-    }
-    .footylogoGrid{
-        width: 100%;
-        grid-gap: 15%;
-    }
-    .footyimg{
-        width: 80px;
-    }
-    #rightRes{
-        font-size: 13px;
-    }
-}
-
-@media (317px <= width <= 371px) { 
-    .navimg{
-        width: 120px;
-    }
-    .ptylogo{
-        font-size: 18px;
-        text-shadow: -1px 0px 2px rgb(11, 11, 11);
-    }
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
-        background: transparent;
-    }
-    .sectionThree{
-        margin-top: 0;
-    }
-    .sectionHeading{
-        font-size: 26px;
-        text-shadow: -1px 0px 2px #FF6A0D;
-    }
-    .seoGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-    } 
-    .dataGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-        padding-bottom: 5%;
-    }
-    .asidecontgrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto; 
-    } 
-    .seoaside{
-        border-radius: 30px;
-        height: auto;
-    }
-    .styleBox, .dataBox{
-        background-position-y: top;
-    }
-    .seobox, .styleBox, .dataBox{
-        background-size: 420%;
-    }
-    .seoheadding{
-        font-size: 24px;
-    }
-    .seoarticle, .dataArticle{
-        padding: 0.5rem;
-        border-radius: 30px;
-    }
-    .seoarticlegrid, .dataArticleBox{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto; 
-    }
-    .seovideo{
-        border-radius: 30px;
-    }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    .openingheading2{
-        font-size: 23px;
-        padding: 10px;
-    }
-    .productheading{
-        font-size: 19px;
-    }
-    .tierDetails, .priceDetails{
-        width: 100%;
-        margin-inline: auto;
-    }
-    .tierDetailText, .tierDetailText2, .priceDetailText{
-        font-size: 14px;
-        text-align: center;
-    }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
-    }
-    .bklink{
-        font-size: 24px;
-        padding: 0.2em;
-    }
-    .price{
-        font-size: 24px;
-    }
-    .pricingGrid, .pricingGrid2, .pricingGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
-    }
-    .tierOnevideo{
-        width: 125%;
-        height: 200%;
-        object-fit: fill;
-        top: -20%;
-        right: 0;
-    } 
-    .seowaffle{
-        font-size: 16px;
-    }
-    .undustryGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto;
-        width: 80vw;
-        margin-inline: auto;
-        border-radius: 30px;
-    } 
-    .industryvidbox{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-    }
-    .industryaside{
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-    .industrywaffle{
-        font-size: 21px;
-    }
-    .words{
-        height: 35px;
-    }
-    .indasideheading{
-        font-size: 17px;
-    }
-    #asideText{
-        font-size: 18px;
-    }
-    .atcont, .chartcont{
-        left: 62.5%; 
-    }
-    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 50px; 
-        padding-right: 1em;
-    }
-    .linkat, .chartat{
-        font-size: 11px;  
-        padding-left: 1rem;
-        text-align: center;
-    }
-    .tierGrid, .tierGrid2, .tierGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-    }
-    .merchGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 0.625em;
-    }
-    #leftButt, #leftButt2, #leftButt3, #rightButt, #rightButt2, #rightButt3{
-        height: 75%;
-    }
-    .footy{
-        min-height: auto;
-    }
-    .footydetails{
-        grid-template-rows: auto; 
-    }
-    #footyHeader{
-        font-size: 12px;
-    }
-    #footyLink{
-        font-size: 9px;
-        margin-bottom: 0.4em;
-    }
-    .footylogoGrid{
-        width: 100%;
-        grid-gap: 10%;
-    }
-    .footyimg{
-        width: 80px;
-    }
-    #rightRes{
-        font-size: 13px;
-    }
-}
-
-@media (372px <= width <= 443px) { 
-    .ptylogo{
-        font-size: 20px;
-        text-shadow: -1px 0px 2px rgb(11, 11, 11);
-    }
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
-        background: transparent;
-    }
-    .sectionHeading{
-        font-size: 22px;
-        text-shadow: -1px 0px 2px #FF6A0D;
-    }
-    .seoGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
+        grid-gap: 5em;
     } 
     .dataGrid{
         grid-template-columns: 1fr;
@@ -383,10 +37,10 @@
         height: auto;
     }
     .seobox, .styleBox, .dataBox{
-        background-size: 250%;
+        background-size: cover;
     }
-    .styleBox, .seobox, .dataBox{
-        background-position-y: top;
+    .styleBox, .seobox{
+        background-position-y: -14em;
     }
     .seoheadding{
         font-size: 24px;
@@ -402,8 +56,173 @@
     .seovideo{
         border-radius: 30px;
     }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
+    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{ 
+        text-align: center;
+    }
+    .openingheading2{
+        font-size: 23px;
+        padding: 10px;
+    }
+    .productheading{
+        font-size: 19px;
+    }
+    .tierDetails, .priceDetails{
+        width: 100%;
+        margin-inline: auto;
+    }
+    .tierDetailText, .tierDetailText2, .priceDetailText{
+        font-size: 14px;
+    }
+    .bklink{
+        font-size: 24px;
+        padding: 0.2em;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%; 
+    }
+    .pricingGrid, .pricingGrid2, .pricingGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+    }
+    .tierOnevideo{
+        width: 125%;
+        height: 200%;
+        object-fit: fill;
+        top: -20%;
+        right: 0;
+    } 
+    .seowaffle{
+        font-size: 16px;
+    }
+    .undustryGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto;
+        width: 80vw;
+        margin-inline: auto;
+        border-radius: 30px;
+    } 
+    .industryvidbox{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .industryaside{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .industrywaffle{
+        font-size: 21px;
+    }
+    .words{
+        height: 35px;
+    }
+    .indasideheading{
+        font-size: 17px;
+    }
+    #asideText{
+        font-size: 18px;
+    }
+    .atcont, .chartcont{
+        left: 62.5%; 
+    }
+    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
+        font-size: 60px; 
+    }
+    .linkat, .chartat{
+        font-size: 13px; 
+    }
+    .tierGrid, .tierGrid2, .tierGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .merchGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5em;
+    }
+    .footy{
+        min-height: auto;
+    }
+    .footydetails{
+        grid-template-rows: auto; 
+    }
+    #footyHeader{
+        font-size: 14px;
+    }
+    #footyLink{
+        font-size: 12px;
+        margin-bottom: 0.4em;
+    }
+    .footylogoGrid{
+        width: 100%;
+        grid-gap: 5%;
+    }
+    .footyimg{
+        width: 80px;
+    }
+    #rightRes{
+        font-size: 13px;
+    }
+}
+
+@media (372px <= width <= 443px) { 
+    .ptylogo{
+        font-size: 20px;
+        text-shadow: -1px 0px 2px rgb(11, 11, 11);
+    }
+    .sectionOne{
+        background-position: center;
+    }
+    .sectionFive, .sectionSix, .sectionThree{
+        background: transparent;
+    }
+    .sectionHeading{
+        font-size: 22px;
+        text-shadow: -1px 0px 2px #FF6A0D;
+    }
+    .seoGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5em;
+    } 
+    .dataGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 2.5em;
+        padding-bottom: 15%;
+    }
+    .asidecontgrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+        grid-gap: 5%;
+    } 
+    .seoaside{
+        border-radius: 30px;
+        height: auto;
+    }
+    .seobox, .styleBox, .dataBox{
+        background-size: cover;
+    }
+    .styleBox, .seobox{
+        background-position-y: -14em;
+    }
+    .seoheadding{
+        font-size: 24px;
+    }
+    .seoarticle, .dataArticle{
+        padding: 0.5rem;
+        border-radius: 30px;
+    }
+    .seoarticlegrid, .dataArticleBox{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto; 
+    }
+    .seovideo{
+        border-radius: 30px;
+    }
+    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{ 
         text-align: center;
     }
     .openingheading2{
@@ -419,10 +238,6 @@
     }
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
-        text-align: center;
-    }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
     }
     .bklink{
         font-size: 24px;
@@ -431,174 +246,8 @@
     .price{
         font-size: 24px;
     }
-    .pricingGrid, .pricingGrid2, .pricingGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
-    }
-    .tierOnevideo{
-        width: 125%;
-        height: 200%;
-        object-fit: fill;
-        top: -20%;
-        right: 0;
-    } 
-    .seowaffle{
-        font-size: 16px;
-    }
-    .undustryGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto;
-        width: 80vw;
-        margin-inline: auto;
-        border-radius: 30px;
-    } 
-    .industryvidbox{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-    }
-    .industryaside{
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-    .industrywaffle{
-        font-size: 21px;
-    }
-    .words{
-        height: 35px;
-    }
-    .indasideheading{
-        font-size: 17px;
-    }
-    #asideText{
-        font-size: 18px;
-    }
-    .atcont, .chartcont{
-        left: 62.5%; 
-    }
-    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
-        font-size: 70px; 
-        padding-right: 1em;
-    }
-    .linkat, .chartat{
-        font-size: 15px; 
-        padding-left: 0.5rem; 
-    }
-    .tierGrid, .tierGrid2, .tierGrid3{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-    }
-    .merchGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 1.25em;
-    }
-    .footy{
-        min-height: auto;
-    }
-    .footydetails{
-        grid-template-rows: auto; 
-    }
-    #footyHeader{
-        font-size: 14px;
-    }
-    #footyLink{
-        font-size: 10px;
-        margin-bottom: 0.4em;
-    }
-    .footylogoGrid{
-        width: 100%;
-        grid-gap: 5%;
-        left: 67.5%;
-    }
-    .footyimg{
-        width: 80px;
-    }
-    #rightRes{
-        font-size: 13px;
-    }
-}
-
-@media (444px <= width <= 572px) { 
-    .ptylogo{
-        font-size: 24px;
-        text-shadow: -1px 0px 2px rgb(11, 11, 11);
-    }
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
-        background: transparent;
-    }
-    .sectionHeading{
-        text-shadow: -1px 0px 2px #FF6A0D;
-    }
-    .seoGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-    } 
-    .dataGrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-gap: 2.5em;
-        padding-bottom: 15%;
-    }
-    .asidecontgrid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh auto;
-    }
-    .seoaside{
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        height: auto;
-    }
-    .styleBox, .dataBox{
-        background-position-y: top;
-    }
-    .seobox, .styleBox, .dataBox{
-        background-size: 200%;
-    }
-    .seoheadding{
-        font-size: 24px;
-    }
-    .seoarticle, .dataArticle{
-        padding: 0.5rem;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 0%;
-        border-top-right-radius: 0%;
-    }
-    .seoarticlegrid, .dataArticleBox{
-        grid-template-columns: 1fr;
-        grid-template-rows: 35vh auto;
-    }
-    .seovideo{
-        border-radius: 30px;
-    }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    .openingheading2{
-        font-size: 23px;
-        padding: 10px;
-    }
-    .productheading{
-        font-size: 19px;
-    }
-    .tierDetails, .priceDetails{
-        width: 62.5%;
-        margin-inline: auto;
-    }
-    .tierDetailText, .tierDetailText2, .priceDetailText{
-        font-size: 14px;
-    }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
-    }
-    .bklink{
-        font-size: 24px;
-        padding: 0.2em;
-    }
-    .price{
-        font-size: 24px;
+    .tierImg{
+        background-position-y: 50%;
     }
     .pricingGrid, .pricingGrid2, .pricingGrid3{
         grid-template-columns: 1fr;
@@ -657,7 +306,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 1.25em;
+        grid-gap: 5em;
     }
     .footy{
         min-height: auto;
@@ -669,7 +318,177 @@
         font-size: 14px;
     }
     #footyLink{
-        font-size: 11px;
+        font-size: 12px;
+        margin-bottom: 0.4em;
+    }
+    .footylogoGrid{
+        width: 100%;
+        grid-gap: 5%;
+        left: 67.5%;
+    }
+    .footyimg{
+        width: 80px;
+    }
+    #rightRes{
+        font-size: 13px;
+    }
+}
+
+@media (444px <= width <= 572px) { 
+    .ptylogo{
+        font-size: 24px;
+        text-shadow: -1px 0px 2px rgb(11, 11, 11);
+    }
+    .sectionOne{
+        background-position: center;
+    }
+    .sectionFive, .sectionSix, .sectionThree{
+        background: transparent;
+    }
+    .sectionHeading{
+        text-shadow: -1px 0px 2px #FF6A0D;
+    }
+    .seoGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5em;
+    } 
+    .dataGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 2.5em;
+        padding-bottom: 15%;
+    }
+    .asidecontgrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+    }
+    .seoaside{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: auto;
+    }
+    .seobox, .styleBox, .dataBox{
+        background-size: cover;
+    }
+    .styleBox, .seobox{
+        background-position-y: -14em;
+    }
+    .seoheadding{
+        font-size: 24px;
+    }
+    .seoarticle, .dataArticle{
+        padding: 0.5rem;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    .seoarticlegrid, .dataArticleBox{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto;
+    }
+    .seovideo{
+        border-radius: 30px;
+    }
+    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{ 
+        text-align: center;
+    }
+    .openingheading2{
+        font-size: 23px;
+        padding: 10px;
+    }
+    .productheading{
+        font-size: 19px;
+    }
+    .tierDetails, .priceDetails{
+        width: 62.5%;
+        margin-inline: auto;
+    }
+    .tierDetailText, .tierDetailText2, .priceDetailText{
+        font-size: 14px;
+    }
+    .bklink{
+        font-size: 24px;
+        padding: 0.2em;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%;
+    }
+    .pricingGrid, .pricingGrid2, .pricingGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh auto;
+    }
+    .tierOnevideo{
+        width: 125%;
+        height: 200%;
+        object-fit: fill;
+        top: -20%;
+        right: 0;
+    } 
+    .seowaffle{
+        font-size: 16px;
+    }
+    .undustryGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vh auto;
+        width: 80vw;
+        margin-inline: auto;
+        border-radius: 30px;
+    } 
+    .industryvidbox{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .industryaside{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .industrywaffle{
+        font-size: 21px;
+    }
+    .words{
+        height: 35px;
+    }
+    .indasideheading{
+        font-size: 17px;
+    }
+    #asideText{
+        font-size: 18px;
+    }
+    .atcont, .chartcont{
+        left: 62.5%; 
+    }
+    .aticon, .charticon, .bxs-badge-dollar, .bxs-store-alt{
+        font-size: 75px; 
+    }
+    .linkat, .chartat{
+        font-size: 15px; 
+    }
+    .tierGrid, .tierGrid2, .tierGrid3{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .merchGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 5em;
+    }
+
+    .footy{
+        min-height: auto;
+    }
+    .footydetails{
+        grid-template-rows: auto; 
+    }
+    #footyHeader{
+        font-size: 14px;
+    }
+    #footyLink{
+        font-size: 12px;
         margin-bottom: 0.4em;
     }
     .footylogoGrid{
@@ -690,7 +509,10 @@
         font-size: 26px;
         text-shadow: -1px 0px 2px rgb(11, 11, 11);
     } 
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
+    .sectionOne{
+        background-position: center;
+    }
+    .sectionFive, .sectionSix, .sectionThree{
         background: transparent;
     }
     .sectionHeading{
@@ -727,10 +549,7 @@
     }
     .seovideo{
         border-radius: 30px;
-    }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
-    }
+    } 
     .openingheading2{
         font-size: 23px;
         padding: 10px;
@@ -745,15 +564,15 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 14px;
     }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
-    }
     .bklink{
         font-size: 24px;
         padding: 0.2em;
     }
     .price{
         font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%;
     }
     .pricingGrid, .pricingGrid2, .pricingGrid3{
         grid-template-columns: 1fr;
@@ -812,7 +631,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 2.5em;
+        grid-gap: 5em;
     } 
     .footy{
         min-height: auto;
@@ -844,7 +663,10 @@
     .ptylogo{
         text-shadow: -1px 0px 2px rgb(11, 11, 11);
     }
-    .sectionOne, .sectionFive, .sectionSix, .sectionThree{
+    .sectionOne{
+        background-position: center;
+    }
+    .sectionFive, .sectionSix, .sectionThree{
         background: transparent;
     }
     .sectionHeading{
@@ -878,10 +700,7 @@
     }
     .seovideo{
         border-radius: 30px;
-    }
-    .openingheading, .openingheading2, .openingwaffle, .openingwaffle2{
-        color: rgb(51, 51, 51);
-    }
+    } 
     .openingheading2{
         font-size: 23px;
         padding: 10px;
@@ -892,15 +711,15 @@
     .tierDetailText, .tierDetailText2, .priceDetailText{
         font-size: 12px;
     }
-    .tierTwoArticle, .tierThreeArticle{
-        padding-bottom: 0.5rem;
-    }
     .bklink{
         font-size: 24px;
         padding: 0.2em;
     }
     .price{
         font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%;
     }
     .pricingGrid, .pricingGrid2, .pricingGrid3{
         grid-template-columns: 1fr;
@@ -955,7 +774,7 @@
     .merchGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-gap: 2.5em;
+        grid-gap: 5em;
     }
     .footy{
         min-height: auto;
@@ -1009,6 +828,9 @@
     }
     .price{
         font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%;
     }
     .pricingGrid, .pricingGrid2, .pricingGrid3{
         grid-template-columns: 1fr;
@@ -1076,6 +898,9 @@
     }
     .price{
         font-size: 24px;
+    }
+    .tierImg{
+        background-position-y: 50%;
     }
     .pricingGrid, .pricingGrid2, .pricingGrid3{
         grid-template-columns: 1fr;
